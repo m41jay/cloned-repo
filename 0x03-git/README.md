@@ -1,1 +1,1 @@
-This is the second day of the programme
+This is the second day of the ALX programme
