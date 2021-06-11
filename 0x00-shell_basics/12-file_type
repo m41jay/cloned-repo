@@ -1,2 +1,2 @@
 #!/bin/bash
-__ls__  /tmp/iamafile etc
+__ls__  iamafile etc
