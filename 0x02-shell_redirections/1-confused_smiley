@@ -1,2 +1,2 @@
-#!/bin/ash
-ls > "(Ôo)"
+#!/bin/bash
+echo "\"(Ôo)'"
