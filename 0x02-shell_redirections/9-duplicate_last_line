@@ -1,2 +1,3 @@
 #!/bin/bash
-sed -e '$p' input-file
+sed -n '$p' iacta
+
