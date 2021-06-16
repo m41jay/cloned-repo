@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n x file >> newfile
+tail -n 1 iacta >> newfile
