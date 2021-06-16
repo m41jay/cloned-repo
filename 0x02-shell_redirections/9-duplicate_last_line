@@ -1,3 +1,2 @@
 #!/bin/bash
-sed -n '$p' iacta
-
+tail -n x file >> newfile
