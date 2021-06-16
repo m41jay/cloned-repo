@@ -1,2 +1,2 @@
 #!/bin/bash
-sed '$' ./iacta | cp '$' ./iacta
+sed -e '$p' input-file
