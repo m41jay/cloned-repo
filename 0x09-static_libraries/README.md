@@ -1,1 +1,0 @@
-This is a README.md file for building Static libraries
