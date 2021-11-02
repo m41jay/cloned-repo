@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-0;276;0c# Display numbers 1 to 20 but also
-Display superstitious numbers:
+# Display numbers 1 to 20 but also
+# Display superstitious numbers:
 # numbers, omen and country of origin
 a=1
 while [ $a -le 20 ];
