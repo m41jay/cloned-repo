@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # A Script that Prints out thamous fizzbuzz program
-for ((a=1; a<101 a++));
+for ((a=1; a<101; a++));
 do
     if ((a % 5 == 0)) && ((a % 3 == 0));
         then
