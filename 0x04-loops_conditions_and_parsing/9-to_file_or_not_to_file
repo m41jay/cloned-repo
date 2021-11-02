@@ -5,13 +5,13 @@ if [ -e $file ];
    then
    echo "school file exists"
    if [ -s $file ];
-           then
-	   echo "school file is empty";
+       then
+       echo "school file is empty";
    else
        echo "school file is empty";
    fi;
    if [ -f $file ];
-   then
+       then
        echo "school is a regular file";
    fi;
 else
