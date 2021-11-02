@@ -3,13 +3,13 @@
 for ((a=1; a<111; a++));
 do
     if ((a % 5 == 0)) && ((a % 3 == 0));
-    then
+        then
 	echo "FizzBuzz";
     elif ((a % 5 == 0));
-    then
+        then
 	echo "Buzz";
     elif ((a % 3 == 0));
-    then
+         then
 	 echo "Fizz";
     else
 	echo $a;
