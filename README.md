@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fix_My_Code_Challenge
 Background Context
 
@@ -32,3 +33,10 @@ All your files will be compiled on Ubuntu 20.04 LTS
 All your files should end with a new line
 
 A README.md file, at the root of the folder of the project is mandatorydonwonwe
+=======
+<<<<<<< HEAD
+This is a README file for the printf peer learning function building project.
+=======
+No README.md, no knowledge sharing :-(# alx-sytem_engineering-devops
+>>>>>>> 3dd7c16846b369694f59e671ad702eeb4bd94bc9
+>>>>>>> 9e939786aec8b21f3526108b747129e8ee7b8c5e

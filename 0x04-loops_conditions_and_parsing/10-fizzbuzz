@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# A Script that Prints out thamous fizzbuzz program
+for ((a=1; a<101; a++));
+do
+    if ((a % 5 == 0)) && ((a % 3 == 0));
+        then
+	echo "FizzBuzz";
+    elif ((a % 5 == 0));
+        then
+	echo "Buzz";
+    elif ((a % 3 == 0));
+         then
+	 echo "Fizz";
+    else
+	echo $a;
+    fi;
+done
