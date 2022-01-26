@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# installs nginx and configure it to listen on port 80 make it return a page with
-# "Hello" in it
-sudo apt-update
+# install nginx on web-01 server
+#+ Nginx should be listening on port 80
+
+sudo apt-get -y update
+sudo apt-get -y upgrade
 sudo apt-get -y install nginx
-sudo service nginx start
-echo "Hello world!" | sudo tee /usr/share/nginx/html/index.html
+echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
