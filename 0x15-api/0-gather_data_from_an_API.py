@@ -7,22 +7,12 @@ import requests
 from sys import argv
 
 if __name__ == ' __main__':
-    if len(argv) > 1:
-        user = argv[1]
-        api_url = "https://jsonplaceholder.typicode.com/"
-        req_user = requests.get("{}users/{}".format(api_url, user))
-        name = req_user.json().get("name")
-        if name is not None:
-            json_req = requests.get(
-                "{}todos?userId={}".format(
-                    api_url, user)).json()
-            all_task = len(json_req)
-            completed_task = []
-            for task in json_req:
+        userId = argv[1]
+        req_user = requests.get("https://jsonplaceholder.typicode.com/users/{}".format(userId), verify=False).json()
+        to_do = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}".format(userId), verify=False).json()
+        completed_tasks = []
+        for task in to_do:
                 if task.get("completed") is True:
-                    completed_task.append(task)
-            completed_count = len(completed_task)
-            print("Employee {} is done with tasks({}/{}):"
-                  .format(name, completed_count, all_task))
-            for title in completed_task:
-                print("\t {}".format(title.get("title")))
+                    completed_tasks.append(task.get('title'))
+        print("Employee {} is done with tasks({}/{}):".format(req_user.get('name'), len(completed_tasks), len(to_do)))
+        print("\n".join("\t {}".format(task) for task in completed_tasks))
