@@ -15,8 +15,7 @@ def top_ten(subreddit):
     r = requests.get("http://www.reddit.com/r/{}/hot.json".
                      format(subreddit),
                      headers={
-                         "User-Agent": "Holberton API access
-                         v1.0.0 (by / u/bluntdoc369)"},
+                         "User-Agent": "Holberton API access"},
                      params={"limit": 10}).json()
     posts = r.get("data", {}).get("children", None)
     if posts is None or (len(posts) > 0 and posts[0].get("kind") != "t3"):
