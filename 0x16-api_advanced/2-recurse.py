@@ -6,7 +6,7 @@ query the Reddit API and prints the titles of the first 10 hot posts
 import requests
 
 
-def top_ten(subreddit):
+def recurse(subreddit, hot_list=[], after=None):
     """
     prints titles of hot 10 posts
     """
