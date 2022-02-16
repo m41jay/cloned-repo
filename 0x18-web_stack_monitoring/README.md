@@ -38,8 +38,7 @@ Web stack monitoring can be broken down into 2 categories:
 
 
 
-### Monitor all the things!!!
-(https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/ktCXnhE.jpg)
+![Monitor all the things!!!](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/ktCXnhE.jpg)
 
 
 ### What you should learn from this project
