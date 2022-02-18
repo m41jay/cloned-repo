@@ -45,7 +45,7 @@ The following projects cover an overview of the foundational skills needed to su
 
 
 ### Author
-Sonkay COnteh
+Sonkay Conteh
 
 [Email](zamanisonkay@gmail.com)
 [Twitter](https://twitter.com/SonkayZamani)
