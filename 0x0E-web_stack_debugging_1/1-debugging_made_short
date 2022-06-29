@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# link sites-enabled to sites-available, without running status starts nginx
-rm /etc/nginx/sites-enabled/default
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo service nginx restart

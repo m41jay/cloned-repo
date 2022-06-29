@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-#Script displays: the content of current dir. in a list format
-# Only part of the name after thie first dash is displayed
-for file in *;
-do
-    echo "$file" | cut -d '-' -f 2;
-done;

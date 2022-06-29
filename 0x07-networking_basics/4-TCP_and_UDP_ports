@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# A script that displays listening ports, PIDS and program names
-sudo netstat -plnt

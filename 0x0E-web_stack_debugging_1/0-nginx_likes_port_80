@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# find out what's keeping Ubuntu container's Nginx installlation from listening on port_80
-# requirement - Nginx must be running & listening on port80 of all the server's active IPv4 IPs
-# write a bash script tha configures a server to the above rquiremts
-sudo rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo service nginx start
